@@ -37,7 +37,7 @@ main section .top img {
 }
 main section .bottom {
   background-color: #1E1E1E;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0.7rem;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ main section .bottom .text h1 {
 }
 main section .bottom .text p {
   font-size: 1.2rem;
-  line-height: 2;
+  line-height: 1.5;
   opacity: 0.5;
 }
 main section .bottom .btn {
@@ -71,7 +71,7 @@ main section .bottom .btn {
 @media (min-width: 900px) {
   .first {
     flex-direction: row;
-    padding: 1rem 1.3rem;
+    padding: 0.7rem 1.3rem;
   }
   .first .top,
   .first .bottom {
@@ -82,17 +82,17 @@ main section .bottom .btn {
     gap: 1rem;
   }
   .bottom #studio {
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1.3rem;
   }
   .bottom .text {
-    padding: 2rem;
+    padding: 1rem;
   }
   .bottom .text h1 {
     font-size: 4vw !important;
   }
   .bottom .text p {
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
