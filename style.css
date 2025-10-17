@@ -68,7 +68,7 @@ main section .bottom .btn {
   border-radius: 0.7rem;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 900px) {
   .first {
     flex-direction: row;
     padding: 1rem 1.3rem;
