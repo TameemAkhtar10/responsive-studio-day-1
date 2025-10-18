@@ -1,6 +1,6 @@
 @font-face {
   font-family: tameemm;
-  src: url(./AlexandriaFLF.ttf);
+  src: url(./Aleo-Light.otf);
 }
 * {
   margin: 0%;
@@ -78,24 +78,28 @@ main .second {
   width: 100%;
   padding: 1rem;
 }
-main .second .top, main .second .bottom {
+main .second .top,
+main .second .bottom {
   width: 100%;
   display: flex;
   justify-content: space-around;
   gap: 4rem;
   padding: 0.5rem;
 }
-main .second .top .elements, main .second .bottom .elements {
+main .second .top .elements,
+main .second .bottom .elements {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
 }
-main .second .top .elements small, main .second .bottom .elements small {
+main .second .top .elements small,
+main .second .bottom .elements small {
   opacity: 0.5;
   font-size: 1rem;
 }
-main .second .top .elements h2, main .second .bottom .elements h2 {
+main .second .top .elements h2,
+main .second .bottom .elements h2 {
   font-size: 3rem;
   font-weight: 400;
 }
@@ -180,6 +184,40 @@ main .fourth .bottom .text4 p {
   line-height: 25.6px;
   opacity: 0.5;
 }
+main section .fifth {
+  padding: 1rem;
+}
+main section .fifth h1 {
+  font-size: 2.3rem;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  padding: 0rem 1.5rem;
+}
+main section.sixth {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.sixth .card1 {
+  width: 100%;
+  background-image: url(./6.1.webp);
+  padding: 1rem;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section.sixth .card1 .icons {
+  display: flex;
+  justify-content: flex-end;
+}
+main section.sixth .card1 .headings {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
 
 @media (min-width: 900px) {
   section.first {
@@ -260,7 +298,7 @@ main .fourth .bottom .text4 p {
     padding: 0.3rem;
   }
   section.fourth .bottom .text4 h2 {
-    font-size: 4vw !important;
+    font-size: 3.5vw !important;
   }
   section.fourth .bottom .text4 .paragraphs {
     display: flex;
