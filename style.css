@@ -389,6 +389,38 @@ main section.seventh .bottom #btp i {
   width: fit-content;
   border-radius: 50%;
 }
+main section.eighth {
+  width: 100%;
+  margin: 0rem 1rem;
+  padding: 2rem;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  background-color: #CDBC63;
+  border-radius: 0.7rem;
+}
+main section.eighth .top p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  opacity: 0.8;
+}
+main section.eighth h1 {
+  font-size: 2.7rem;
+  font-weight: 200;
+  line-height: 0.9;
+  padding: 0.5rem;
+}
+main section.eighth .bottom button {
+  width: 80%;
+  padding: 1rem 1.4rem;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
 
 @media (min-width: 900px) {
   section.first {
@@ -484,11 +516,17 @@ main section.seventh .bottom #btp i {
     flex-direction: row !important;
   }
   section.seventh .top {
-    width: 50%;
+    width: 50% !important;
   }
   section.seventh .bottom {
+    padding: 4rem 4rem 3rem 4rem !important;
     width: 50%;
-    justify-content: space-between;
-    gap: 0rem !important;
+    justify-content: space-between !important;
+  }
+  section.seventh .bottom #top p {
+    font-size: 0.8rem;
+  }
+  section.seventh .bottom h1 {
+    font-size: 2.2rem;
   }
 }/*# sourceMappingURL=style.css.map */
