@@ -576,7 +576,12 @@ main {
 
     section.third {
         flex-direction: row-reverse;
-       
+       .top {
+        img {
+            height: 652px;
+            object-fit: cover;
+        }
+       }
 
         .top,
         .bottom {
@@ -611,7 +616,12 @@ main {
 
     section.fourth {
         flex-direction: row;
-
+        .top {
+            img {
+                height: 538px;
+                object-fit: cover;
+            }
+        }
       
 
         .top,

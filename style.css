@@ -472,6 +472,11 @@ main section.eighth .bottom a {
   section.third {
     flex-direction: row-reverse;
   }
+  section.third .top img {
+    height: 652px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   section.third .top,
   section.third .bottom {
     width: 50%;
@@ -497,6 +502,11 @@ main section.eighth .bottom a {
   }
   section.fourth {
     flex-direction: row;
+  }
+  section.fourth .top img {
+    height: 538px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   section.fourth .top,
   section.fourth .bottom {
