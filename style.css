@@ -24,13 +24,13 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 1rem;
 }
 main .first {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
 }
 main .first .top {
   width: 100%;
@@ -76,7 +76,7 @@ main .second {
   flex-direction: column;
   gap: 0.7rem;
   width: 100%;
-  padding: 1rem;
+  margin: 1rem;
 }
 main .second .top,
 main .second .bottom {
@@ -108,7 +108,6 @@ main .third {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
 }
 main .third .top {
   width: 100%;
@@ -148,7 +147,7 @@ main .fourth {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
+  padding-top: 1rem;
 }
 main .fourth .top {
   width: 100%;
@@ -186,7 +185,8 @@ main .fourth .bottom .text4 p {
 }
 main section .fifth {
   width: 100%;
-  padding: 1rem;
+  margin: 1rem;
+  padding: 1rem 0rem;
 }
 main section .fifth h1 {
   font-size: 2.3rem;
@@ -200,7 +200,8 @@ main section.sixth {
   flex-wrap: nowrap;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
+  font-weight: 300 !important;
+  font-size: 0.8rem !important;
 }
 main section.sixth .card1 {
   width: 100%;
@@ -242,8 +243,12 @@ main section.sixth .card1 .headings {
   align-items: center;
   border-radius: 0.2rem;
 }
+main section.sixth .card1 .headings #name {
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+}
 main section.sixth .card1 .headings #video {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -287,8 +292,12 @@ main section.sixth .card2 .headings {
   align-items: center;
   border-radius: 0.2rem;
 }
+main section.sixth .card2 .headings #name {
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+}
 main section.sixth .card2 .headings #video {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -332,17 +341,22 @@ main section.sixth .card3 .headings {
   align-items: center;
   border-radius: 0.2rem;
 }
+main section.sixth .card3 .headings #name {
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+}
 main section.sixth .card3 .headings #video {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 main section.seventh {
-  padding: 0 1rem 1rem 1rem;
+  margin-bottom: 1rem !important;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  padding-top: 1rem;
 }
 main section.seventh .top {
   width: 100%;
@@ -391,41 +405,42 @@ main section.seventh .bottom #btp i {
 }
 main section.eighth {
   width: 100%;
-  margin: 0rem 1rem;
-  padding: 2rem;
-  color: #1a1a1a;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  background-color: #CDBC63;
+  padding: 1.8rem !important;
+  gap: 1rem;
+  background-color: #CEBD63;
+  color: #121212;
   border-radius: 0.7rem;
+  text-transform: uppercase;
 }
 main section.eighth .top p {
   font-size: 1rem;
-  padding: 0.5rem;
-  opacity: 0.8;
+  opacity: 0.7;
+  padding-bottom: 0.7rem;
+  padding-top: 1rem;
 }
-main section.eighth h1 {
-  font-size: 2.7rem;
+main section.eighth .top h1 {
+  font-size: 2.6rem;
   font-weight: 200;
-  line-height: 0.9;
-  padding: 0.5rem;
+  width: 90%;
+  line-height: 1;
 }
-main section.eighth .bottom button {
-  width: 80%;
-  padding: 1rem 1.4rem;
-  background-color: black;
+main section.eighth .bottom {
+  background-color: #121212;
+  padding: 1rem 1.2rem;
+  border-radius: 0.7rem;
+  text-align: center;
+}
+main section.eighth .bottom a {
+  padding: 1rem 1.2rem;
   color: white;
-  font-size: 0.8rem;
-  border: none;
-  border-radius: 0.5rem;
-  text-transform: uppercase;
+  text-decoration: none;
 }
 
 @media (min-width: 900px) {
   section.first {
     flex-direction: row;
-    padding: 0.7rem 1.3rem;
   }
   section.first .top,
   section.first .bottom {
@@ -452,11 +467,10 @@ main section.eighth .bottom button {
   section.second {
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem;
+    margin: 1rem;
   }
   section.third {
     flex-direction: row-reverse;
-    padding: 0.7rem 1.3rem;
   }
   section.third .top,
   section.third .bottom {
@@ -483,7 +497,6 @@ main section.eighth .bottom button {
   }
   section.fourth {
     flex-direction: row;
-    padding: 0.7rem 1.3rem;
   }
   section.fourth .top,
   section.fourth .bottom {
@@ -528,5 +541,31 @@ main section.eighth .bottom button {
   }
   section.seventh .bottom h1 {
     font-size: 2.2rem;
+  }
+  section.eighth {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  section.eighth .top {
+    width: 70%;
+  }
+  section.eighth .top p {
+    width: 50% !important;
+  }
+  section.eighth .top h1 {
+    width: 100% !important;
+    font-weight: 100 !important;
+    font-size: 5vw !important;
+  }
+  section.eighth .bottom {
+    height: 3rem;
+    text-align: center;
+    width: 11rem !important;
+  }
+  section.eighth .bottom a {
+    padding: 0rem !important;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
